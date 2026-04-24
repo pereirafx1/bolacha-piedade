@@ -1,0 +1,65 @@
+<svg viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" fill="#C0392B">
+  <!-- Chef hat -->
+  <ellipse cx="60" cy="22" rx="22" ry="6" fill="#C0392B"/>
+  <rect x="42" y="8" width="36" height="18" rx="4" fill="#C0392B"/>
+  <ellipse cx="60" cy="8" rx="16" ry="5" fill="#C0392B"/>
+  <rect x="50" y="3" width="20" height="8" rx="4" fill="#C0392B"/>
+
+  <!-- Hat brim stripe -->
+  <rect x="40" y="24" width="40" height="4" rx="2" fill="#9B1F1F"/>
+
+  <!-- Head -->
+  <ellipse cx="60" cy="42" rx="18" ry="18" fill="#C0392B"/>
+
+  <!-- Face details -->
+  <ellipse cx="54" cy="40" rx="2.5" ry="3" fill="#9B1F1F"/>
+  <ellipse cx="66" cy="40" rx="2.5" ry="3" fill="#9B1F1F"/>
+  <path d="M53 49 Q60 54 67 49" stroke="#9B1F1F" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="55" y="58" width="10" height="8" fill="#C0392B"/>
+
+  <!-- Body / torso (uniform/apron) -->
+  <path d="M35 66 Q30 70 28 85 L32 110 L88 110 L92 85 Q90 70 85 66 Q72 62 60 62 Q48 62 35 66Z" fill="#C0392B"/>
+
+  <!-- Apron bow/collar -->
+  <path d="M50 66 Q60 72 70 66" stroke="#9B1F1F" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="60" cy="70" r="3" fill="#9B1F1F"/>
+
+  <!-- Apron center line buttons -->
+  <circle cx="60" cy="80" r="2.5" fill="#9B1F1F"/>
+  <circle cx="60" cy="90" r="2.5" fill="#9B1F1F"/>
+  <circle cx="60" cy="100" r="2.5" fill="#9B1F1F"/>
+
+  <!-- Left arm (stretched out holding tray) -->
+  <path d="M35 72 Q20 78 8 80 L8 86 Q20 84 36 80Z" fill="#C0392B"/>
+
+  <!-- Right arm (stretched out holding tray) -->
+  <path d="M85 72 Q100 78 112 80 L112 86 Q100 84 84 80Z" fill="#C0392B"/>
+
+  <!-- Tray -->
+  <rect x="4" y="82" width="112" height="6" rx="3" fill="#9B1F1F"/>
+  <rect x="8" y="86" width="104" height="3" rx="1.5" fill="#7A1818"/>
+
+  <!-- Tray legs -->
+  <rect x="20" y="88" width="4" height="5" rx="2" fill="#9B1F1F"/>
+  <rect x="96" y="88" width="4" height="5" rx="2" fill="#9B1F1F"/>
+
+  <!-- Products on tray (3 boxes/packs) -->
+  <rect x="18" y="72" width="20" height="12" rx="2" fill="#9B1F1F"/>
+  <rect x="20" y="68" width="16" height="6" rx="2" fill="#9B1F1F"/>
+
+  <rect x="50" y="70" width="20" height="14" rx="2" fill="#9B1F1F"/>
+  <text x="60" y="80" text-anchor="middle" font-size="5" fill="#C0392B" font-weight="bold">P</text>
+
+  <rect x="82" y="72" width="20" height="12" rx="2" fill="#9B1F1F"/>
+  <rect x="84" y="68" width="16" height="6" rx="2" fill="#9B1F1F"/>
+
+  <!-- Legs -->
+  <path d="M44 110 L40 140 L50 140 L55 118Z" fill="#C0392B"/>
+  <path d="M76 110 L80 140 L70 140 L65 118Z" fill="#C0392B"/>
+
+  <!-- Shoes -->
+  <ellipse cx="44" cy="140" rx="10" ry="5" fill="#9B1F1F"/>
+  <ellipse cx="76" cy="140" rx="10" ry="5" fill="#9B1F1F"/>
+</svg>
