@@ -415,49 +415,21 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: visible;
+  overflow: hidden;
   box-shadow: var(--shadow-lg);
-  padding: 40px;
 }
 
-/* Bolacha Showcase — Historia section */
-.bolacha-showcase {
-  position: relative;
-  width: 320px;
-  height: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.bolacha-showcase__img {
-  position: absolute;
-  width: 260px;
-  height: auto;
-  filter: drop-shadow(0 12px 28px rgba(0,0,0,.55));
+/* Foto real — Historia section */
+.historia__foto-real {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
   transition: var(--transition);
 }
-.bolacha-showcase__img--back {
-  transform: rotate(-18deg) translateY(20px) translateX(-10px);
-  opacity: .7;
-  z-index: 1;
+.historia__img-wrap:hover .historia__foto-real {
+  transform: scale(1.03);
 }
-.bolacha-showcase__img--mid {
-  transform: rotate(8deg) translateY(8px) translateX(12px);
-  opacity: .85;
-  z-index: 2;
-}
-.bolacha-showcase__img--front {
-  transform: rotate(-4deg) translateY(-10px);
-  z-index: 3;
-  animation: biscuitFloat 6s ease-in-out infinite;
-}
-@keyframes biscuitFloat {
-  0%, 100% { transform: rotate(-4deg) translateY(-10px); }
-  50%       { transform: rotate(-4deg) translateY(-22px); }
-}
-.historia__img-wrap:hover .bolacha-showcase__img--back  { transform: rotate(-22deg) translateY(28px) translateX(-18px); }
-.historia__img-wrap:hover .bolacha-showcase__img--mid   { transform: rotate(12deg) translateY(12px) translateX(20px); }
-.historia__img-wrap:hover .bolacha-showcase__img--front { transform: rotate(-4deg) translateY(-18px); }
 
 .historia__badge {
   position: absolute;
